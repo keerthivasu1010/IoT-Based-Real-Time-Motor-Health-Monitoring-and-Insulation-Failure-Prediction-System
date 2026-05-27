@@ -74,27 +74,25 @@ Sensors → ESP32 → Firebase → Streamlit Dashboard → ML Model → Alerts
 
 ---
 
-## 📁 Project Structure
-├── app.py                # Streamlit dashboard
+├── app.py
 
-├── predict.py            # ML prediction logic
+├── predict.py
 
-├── train_model.py        # Model training
+├── train_model.py
 
-├── blynk_fetch.py        # Sensor data fetching
+├── blynk_fetch.py
 
-├── email_alert.py        # Email notification system
+├── email_alert.py
 
-├── model.pkl             # Trained ML model
+├── model.pkl
 
-├── scaler.pkl            # Data scaler
+├── scaler.pkl
 
-├── requirements.txt      # Dependencies
+├── requirements.txt
 
-├── README.md             # Project documentation
+├── README.md
 
-└── sensor_data.csv       # Data storage
-
+└── sensor_data.csv
 ## ▶️ How to Run
 
 pip install -r requirements.txt
