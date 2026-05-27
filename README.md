@@ -11,7 +11,7 @@ IoT-Based Real-Time Motor Health Monitoring and Insulation Failure Prediction Sy
 ---
 
 ## ⚙️ System Architecture
-Sensors → ESP32 → Blynk Cloud → Streamlit Dashboard → ML Model → Alerts
+Sensors → ESP32 → Firebase → Streamlit Dashboard → ML Model → Alerts
 
 
 ---
@@ -76,14 +76,23 @@ Sensors → ESP32 → Blynk Cloud → Streamlit Dashboard → ML Model → Alert
 
 ## 📁 Project Structure
 ├── app.py
+
 ├── predict.py
+
 ├── train_model.py
+
 ├── blynk_fetch.py
+
 ├── email_alert.py
+
 ├── model.pkl
+
 ├── scaler.pkl
+
 ├── requirements.txt
+
 ├── README.md
+
 └── sensor_data.csv
 
 ## ▶️ How to Run
