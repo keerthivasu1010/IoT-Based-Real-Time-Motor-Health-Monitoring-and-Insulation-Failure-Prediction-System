@@ -76,6 +76,7 @@ Sensors → ESP32 → Firebase → Streamlit Dashboard → ML Model → Alerts
 
 ## 📁 Project Structure
 ├── app.py
+
 ├── predict.py
 
 ├── train_model.py
